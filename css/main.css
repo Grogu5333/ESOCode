@@ -34,13 +34,11 @@ nav > .nav-items > a:hover {
     margin-top: 75px;
 }
 
-/* Container holding the image and the text */
 .container {
     position: relative;
     text-align: center;
     color: white;
 
-/* Centered text */
 .headline {
     font-size: 50px;
     position: absolute;
@@ -49,26 +47,26 @@ nav > .nav-items > a:hover {
     transform: translate(-50%, -50%);
 }
 
-  .p-1 {
+.p-1 {
     font-size: 25px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
 
-  .p-2 {
+.p-2 {
     font-size: 20px;
     position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
 
-  .main_text {
+.main_text {
     font-family: monospace;
     color: #b8e67c;
-  }
+}
 
 footer {
     margin-top: 100px;
