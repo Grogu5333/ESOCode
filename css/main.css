@@ -1,9 +1,5 @@
-* {
-    background-color: rgb(248, 224, 194);
-}
-
 nav {
-    background: #;
+    background: #cac8c8;
     display: flex;
     align-items: center;
     padding: 15px;
