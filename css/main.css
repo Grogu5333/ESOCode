@@ -12,7 +12,6 @@ nav {
     top: 0;
 }
 
-
 nav > .logo > img {
     width: 200px;
 }
@@ -20,7 +19,6 @@ nav > .logo > img {
 nav > .nav-items {
     margin-left: 20px;
     text-align: right;
-
 }
 
 nav > .nav-items > a {
@@ -35,9 +33,6 @@ nav > .nav-items > a {
 nav > .nav-items > a:hover {
     color: #7203fa;
 }
-
-
-
 
 h1 {
     margin-top: 250px;
