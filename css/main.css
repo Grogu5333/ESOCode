@@ -2,13 +2,25 @@
     background-color: rgb(248, 224, 194);
 }
 
+nav {
+    background: #;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+
 nav > .logo > img {
     width: 200px;
 }
 
 nav > .nav-items {
-    width: 82%;
+    margin-left: 20px;
     text-align: right;
+
 }
 
 nav > .nav-items > a {
@@ -24,3 +36,26 @@ nav > .nav-items > a:hover {
     color: #7203fa;
 }
 
+main > .background_image {
+    ;
+
+h1 {
+    margin-top: 250px;
+    margin-bottom: 100px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.p-1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.p-2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 100px;
+}
