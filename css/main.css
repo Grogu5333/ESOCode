@@ -1,0 +1,26 @@
+* {
+    background-color: rgb(248, 224, 194);
+}
+
+nav > .logo > img {
+    width: 200px;
+}
+
+nav > .nav-items {
+    width: 82%;
+    text-align: right;
+}
+
+nav > .nav-items > a {
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+nav > .nav-items > a:hover {
+    color: #7203fa;
+}
+
