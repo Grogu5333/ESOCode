@@ -5,50 +5,70 @@
     <meta charset="UTF-8">
     <meta name="author" content="ESO-Codes">
     <meta name="description" content="My playground">
-    <title>ESO Codes</title>
-    <link rel="icon" href="img/eso_code_favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="img/eso_codes_favicon2.png" type="image/x-icon">
     <link rel="stylesheet" href="css/main.css" type="text/css">
+    <title>ESO Codes</title>
 </head>
 <body>
-    <nav>
-        <div class="logo-nav">
-            <img src="img/eso_code_logo_dark.png" width="50px">
-        </div>
-        <div class="nav-items">
-            <a href="">
-                Home
-            </a>
-            <a href="">
-                Services
-            </a>
-            <a href="">
-                Contact Us
-            </a>
-        </div>
-    </nav>
-    <main>
-        <div class="container">
-            <img class="background_image" src="img/matrix_background.png" alt="matrix_background" style="width:100%;">
-            <div class="main_text">
-                <h1 class="headline">Hello World!</h1>
-                <p class="p-1">This site will be my playground while learning coding.</p>
-                <p class="p-2">Feel free to visit the site regularly and follow its development.</p>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#">ESO Codes</a></div>
+            <ul class="links">
+                <li><a href="hero">Home</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="services">Services</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+            <a href="#" class="action_btn">Get Started</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
             </div>
         </div>
-                
+
+        <div class="dropdown_menu">
+            <li><a href="hero">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="services">Services</a></li>
+            <li><a href="contact">Contact</a></li>
+            <li><a href="#" class="action_btn">Get Started</a></li>
+        </div>
+    </header>
+   <main>
+        <section id="hero">
+            <h1 class="headline">Hello World!</h1>
+            <p class="p-1">This site will be my playground while learning coding.</p>
+            <p class="p-2">Feel free to visit the site regularly and follow its development.</p>
+
+        </section>
+        
+        <footer>
+            <div class="copyright">
+                <p>
+                    Copyright &copy; ESO Codes 2024.
+                </p>
+                <p>
+                    Version 0.70<br> Last Updated 30.08.2024
+                </p>
+            </div>
+        </footer>
     </main>
-    <footer>
-        <div class="logo-footer">
-        <img src="img/eso_code_logo_dark.png" width="50px">
-        </div>
-        <div class="copyright">
-            <p>
-                Copyright &copy; ESO Codes 2024.
-            </p>
-            <p>
-                Version 0.50<br> Last Updated 15.08.2024
-            </p>
-        </div>
-    </footer>
+    
+        <script>
+            const toggleBtn = document.querySelector(".toggle_btn")
+            const toggleBtnIcon = document.querySelector(".toggle_btn i")
+            const dropDownMenu = document.querySelector(".dropdown_menu")
+
+            toggleBtn.onclick = function () {
+                dropDownMenu.classList.toggle("open")
+                const isOpen = dropDownMenu.classList.contains("open")
+
+                toggleBtnIcon.classList = isOpen
+                    ? "fa-solid fa-xmark"
+                    : "fa-solid fa-bars"
+                
+            }
+        </script>
+
 </body>
 </html>
