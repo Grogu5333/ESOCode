@@ -140,7 +140,7 @@ section#eso_codes {
     color: #fff;
 }
 
-#eso_codes h1 {
+#eso_codes .headline {
     font-size: 6rem;
     margin-bottom: 1rem;
 }
