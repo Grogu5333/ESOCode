@@ -143,7 +143,16 @@ section#eso_codes {
 #eso_codes h1 {
     font-size: 4rem;
     margin-bottom: 1rem;
+}
 
+#eso_codes .p_1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#eso_codes .p_2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 @media (max-width: 575px) {
