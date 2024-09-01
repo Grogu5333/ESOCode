@@ -110,6 +110,11 @@ header {
     justify-content: center;
 }
 
+.copyright {
+    color: #fff;
+    padding: 1rem;
+}
+
 @media (max-width: 992px) {
     .navbar .links,
     .navbar .action_btn {
@@ -125,7 +130,7 @@ header {
     }
 }
 
-section#hero {
+section#eso_codes {
     height: calc(100vh - 60px);
     display: flex;
     flex-direction: column;
